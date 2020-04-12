@@ -1,0 +1,44 @@
+.home-root {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;    
+}
+
+.home-responsive-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.home-img {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.toggle-button-style {
+    padding: 12px;
+    background-color: gray;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
